@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: start;
+  padding: 20px 100px;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.blockBtn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: auto;
+}
+
+.blockBtn:hover {
+  transform: translate(10px, -10px);
 }
